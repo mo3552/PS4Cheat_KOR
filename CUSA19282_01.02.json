@@ -1,0 +1,54 @@
+{
+  "name": "드래곤 퀘스트 XI S : 지나간 시간을 찾아서 - Definitive Edition",
+  "id": "CUSA19282",
+  "version": "01.02",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "무한 골드",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5F9B800",
+          "on": "C787C00000007F9698008B8FC0000000E92009B6FB",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1AFC12F",
+          "on": "E9CCF6490490",
+          "off": "898FC0000000"
+        }
+      ]
+    },
+    {
+      "name": "무한 아이템 사용",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1019FE1",
+          "on": "8B4318",
+          "off": "894318"
+        }
+      ]
+    },
+    {
+      "name": "무한 스킬 포인트",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5F9B815",
+          "on": "41C785B4000000E7030000E9235C97FB",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "1911441",
+          "on": "E9CFA368049090",
+          "off": "418985B4000000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "mo3552"
+  ]
+}
